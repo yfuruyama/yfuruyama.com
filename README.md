@@ -10,5 +10,5 @@ gcloud app --project=${PROJECT_ID} deploy
 ### local development
 
 ```sh
-goapp serve
+dev_appserver.py app.yaml
 ```
