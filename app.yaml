@@ -1,6 +1,9 @@
 runtime: go
-api_version: go1
+api_version: go1.8
 
+env_variables:
+  GA_TRACKING_ID: "UA-25397287-2"
+  
 handlers:
 - url: /.*
   script: _go_app
