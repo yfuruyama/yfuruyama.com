@@ -6,4 +6,5 @@ env_variables:
   
 handlers:
 - url: /.*
+  secure: always
   script: _go_app
