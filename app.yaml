@@ -1,4 +1,4 @@
-runtime: go112
+runtime: go116
 
 env_variables:
   GA_TRACKING_ID: "UA-25397287-2"
